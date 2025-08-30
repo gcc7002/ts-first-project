@@ -1,12 +1,10 @@
-import Tests from "./components/FirstTest";
-
 import "./App.css";
+import HomeLogin from "./components/HomeLogin";
+
 function App() {
   return (
-    <div>
-      <h1>tem que dar certo</h1>
-      <h1 className="logo">Testando</h1>
-      <Tests />
+    <div className="App">
+      <HomeLogin />
     </div>
   );
 }
